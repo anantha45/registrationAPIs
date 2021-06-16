@@ -1,0 +1,16 @@
+http://localhost:8000/register -- POST -- Registration (name, mobile_number, email, password, username) 
+
+http://localhost:8000/login -- POST -- Login (password, username) 
+
+http://localhost:8000/forgot_password -- POST -- Forgot Password (username) 
+
+http://localhost:8000/reset_password -- POST -- Reset Password (token , password) 
+
+http://localhost:8000/get_employees -- GET -- Get employees (pagination , page, limit, department, location , age) 
+
+
+http://localhost:8000/add_employee -- POST -- Add Employee (name, job_profile, department, location , age, salary ) 
+
+http://localhost:8000/update_employee/2 -- PUT -- Update Employee (name, job_profile, department, location , age, salary) 
+
+http://localhost:8000/delete_employee/2 -- DELETE -- Delete Employee 
